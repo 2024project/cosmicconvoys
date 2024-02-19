@@ -1,0 +1,8 @@
+# .gitignore essentially just stops certain things from being committed.
+# For example, we don't want the huge node_modules/ folder to be committed, since it takes up so much space. While it is needed to run the program,
+# npm automatically installs those packages on machines once you run it.
+
+# Ignore node_modules
+node_modules
+
+# .env is NOT ignored, see details in .env for more information on why this is.
